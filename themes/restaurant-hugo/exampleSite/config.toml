@@ -51,18 +51,18 @@ URL = "about-us"
 weight = 2
 
 [[menu.main]]
-name = "Blog"
+name = "blog"
 URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Price"
-URL = "price"
+name = "Minyanmin"
+URL = "minyanmin"
 weight = 4
 
 [[menu.main]]
-name = "News"
-URL = "subscribe"
+name = "donate"
+URL = "donate"
 weight = 5
 
 [[menu.main]]

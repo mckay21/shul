@@ -29,24 +29,19 @@ about:
     There are multiple schools throughout South Florida and bussing is available to most of them.
     If you have any more questions please don't hesitate to ask. We look forward to you joining us.
   
-################# Schedule ######################
-Schedule:
+################# Minyanmin ######################
+blog:
   enable : true
-  title : "Minyanim <span>Schedule</span>"
-  bg_image : "sanctuary.jpg"
-  overlay : true
+  title : "Minyanmin Schedule"
+  description: "SUNDAY \n Shacharit 8:30 am \n Minchah and Maariv 6 pm \n M-F 7:30am"
+  description: "MONDAY-FRIDAY \n Shacharit: 730am  10 minutes before Shkia (sunset) \n Nusach Sfard"
 
-
-################# Davening Schedule ################
-  title : "<span>Minyanmin</span>"
-  description: " - SUNDAY \n - Shacharit 8:30 am \n - Minchah and Maariv 6 pm \n - M-F 7:30am"
-  description: " MONDAY - FRIDAY \n - Shacharit: 730am  10 minutes before Shkia (sunset) \n - Nusach Sfard"
 
 ################### Donate ################
 subscription:
   enable : true
   bg_image : "images/sanctuary.jpg"
-  title : "Donate to the Shul"
+  title : "Donate"
   description : ""
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"

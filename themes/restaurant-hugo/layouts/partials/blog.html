@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block">
-					<h1 class="heading">{{ site.Data.homepage.blog.title | markdownify }}</h1>
+					<h1 class="heading">{{ .title | markdownify }}</h1>
 					{{ $paginator := .Paginate site.RegularPages }}
 					{{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections) }}
 					<div class="col-lg-6">

@@ -15,7 +15,7 @@
 							{{end}}
 						</ul>
 					</div>
-			</div>
+				</div>
 			</div>
 			<!-- .col-md-4 close -->
 			<div class="col-md-4">
@@ -39,7 +39,7 @@
 				<div class="block wow fadeInLeft" data-wow-delay="1100ms">
 					<div class="gallary">
 						<h3>{{ with site.Params.footer.galleryTitle }} {{ . | safeHTML }} {{ end }}</h3>
-						<ul class="gallery">
+						<ul class="gallary">
 							{{ range site.Params.footer.gallery }}
 							<li><a href="{{ .image | absURL }}" class="venobox" data-gall="footerGallery"><img class="img-responsive"
 										src="{{ .image | absURL }}" alt=""></a></li>

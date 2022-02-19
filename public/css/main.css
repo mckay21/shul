@@ -299,9 +299,9 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 /*--
-    blog Start
+    events Start
 --*/
-#blog {
+#events {
   padding-top: 75px;
   padding-bottom: 100px;
   background-repeat: no-repeat;
@@ -310,7 +310,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   position: relative;
 }
 
-#blog .block .heading {
+#events .block .heading {
   color: #fff;
   margin-bottom: 40px;
 }
@@ -711,19 +711,19 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   color: #FF4F02;
 }
 
-#footer .block .blog ul,
+#footer .block .events ul,
 #footer .block .info ul,
 #footer .block .gallary ul {
   padding-top: 20px;
 }
 
-#footer .block .blog ul li,
+#footer .block .events ul li,
 #footer .block .info ul li,
 #footer .block .gallary ul li {
   margin-bottom: 20px;
 }
 
-#footer .block .blog ul li h4,
+#footer .block .events ul li h4,
 #footer .block .info ul li h4,
 #footer .block .gallary ul li h4 {
   padding-bottom: 10px;
@@ -731,7 +731,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   color: #FF4F02;
 }
 
-#footer .block .blog ul li h4 i,
+#footer .block .events ul li h4 i,
 #footer .block .info ul li h4 i,
 #footer .block .gallary ul li h4 i {
   color: #555;
@@ -739,7 +739,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   font-size: 20px;
 }
 
-#footer .block .blog ul li h4 a,
+#footer .block .events ul li h4 a,
 #footer .block .info ul li h4 a,
 #footer .block .gallary ul li h4 a {
   color: #FF4F02;
@@ -747,7 +747,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   font-weight: 600;
 }
 
-#footer .block .blog ul li p,
+#footer .block .events ul li p,
 #footer .block .info ul li p,
 #footer .block .info ul li p a,
 #footer .block .gallary ul li p {
