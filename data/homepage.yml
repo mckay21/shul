@@ -1,0 +1,61 @@
+################## Hero area ##################
+hero_area:
+  enable : true
+  bg_image : "images/header.jpg"
+  overlay : truefr
+
+################### Gallery ###################
+gallery:
+  enable : false
+  title : "FEATURED WORKS"
+  images:
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+    - "images/slider/slider-img-1.jpg"
+    - "images/slider/slider-img-2.jpg"
+    - "images/slider/slider-img-3.jpg"
+    - "images/slider/slider-img-4.jpg"
+
+################ About #######################
+about:
+  enable : true
+  image : ""
+  title : "**Rayim Ahuvim** New Shul to the West Hollywood neighborhood of South Florida!"
+  description : |
+    Our goal is to provide a mainstream, warm Shul where all Jews are welcome and accepted.
+    If you are interested in relocating to the West Hollywood area, we will do our best to help you find a home and answer any questions that you might have. 
+    There are multiple schools throughout South Florida and bussing is available to most of them.
+    If you have any more questions please don't hesitate to ask. We look forward to you joining us.
+  
+################# Schedule ######################
+Schedule:
+  enable : true
+  title : "Minyanim <span>Schedule</span>"
+  bg_image : "sanctuary.jpg"
+  overlay : true
+
+
+################# Davening Schedule ################
+  title : "<span>Minyanmin</span>"
+  description: " - SUNDAY \n - Shacharit 8:30 am \n - Minchah and Maariv 6 pm \n - M-F 7:30am"
+  description: " MONDAY - FRIDAY \n - Shacharit: 730am  10 minutes before Shkia (sunset) \n - Nusach Sfard"
+
+################### Donate ################
+subscription:
+  enable : true
+  bg_image : "images/sanctuary.jpg"
+  title : "Donate to the Shul"
+  description : ""
+  #Mailchimp subscription configaration 
+  form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  overlay : true
+
+################ Contact #######################
+contact:
+  enable : true
+  title: "Contact Us"
+  subtitle: "SIGN UP FOR EMAIL ALERTS TODAY"
+  form_action : "#" #contact form works with formspree.io

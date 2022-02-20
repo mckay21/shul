@@ -25,7 +25,7 @@
 </p>
 
 ---
-# Features
+## Features
 - Google analytics  support
 - CSS and JS bundle with hugo pipe
 - Netlify settings predefine

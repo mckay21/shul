@@ -73,7 +73,7 @@ weight = 6
 
 #################### default parameters ################################
 [params]
-logo = "images/widelogo-01.jpg"
+logo = "images/logo.png"
 # meta data
 author = "Themefisher"
 description = "This is meta description"
@@ -82,7 +82,7 @@ google_analitycs_id = "Your ID"
 # mainSections
 main_sections = ["post"]
 # copyright
-copyright = "Copyright &copy; 2022. All Rights Reserved."
+copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
 # Preloader
 [params.preloader]

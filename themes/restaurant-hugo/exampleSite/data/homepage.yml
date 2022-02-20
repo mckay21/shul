@@ -2,11 +2,11 @@
 hero_area:
   enable : true
   bg_image : "images/header.jpg"
-  overlay : truefr
+  overlay : true
 
 ################### Gallery ###################
 gallery:
-  enable : false
+  enable : true
   title : "FEATURED WORKS"
   images:
     - "images/slider/slider-img-1.jpg"
@@ -21,33 +21,51 @@ gallery:
 ################ About #######################
 about:
   enable : true
-  image : ""
-  title : "**Rayim Ahuvim** New Shul to the West Hollywood neighborhood of South Florida!"
-  description : |
-    Our goal is to provide a mainstream, warm Shul where all Jews are welcome and accepted.
-    If you are interested in relocating to the West Hollywood area, we will do our best to help you find a home and answer any questions that you might have. 
-    There are multiple schools throughout South Florida and bussing is available to most of them.
-    If you have any more questions please don't hesitate to ask. We look forward to you joining us.
+  image : "images/cooker-img.png"
+  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
   
-################# Schedule ######################
-Schedule:
+################# Blog ######################
+blog:
   enable : true
-  title : "Minyanim <span>Schedule</span>"
-  bg_image : "sanctuary.jpg"
+  title : "Our Latest <span>Blog</span>"
+  bg_image : "images/blog/blog-bg.jpg"
   overlay : true
 
 
-################# Davening Schedule ################
-  title : "<span>Minyanmin</span>"
-  description: " - SUNDAY \n - Shacharit 8:30 am \n - Minchah and Maariv 6 pm \n - M-F 7:30am"
-  description: " MONDAY - FRIDAY \n - Shacharit: 730am  10 minutes before Shkia (sunset) \n - Nusach Sfard"
+################# food Menu ################
+pricing:
+  enable : true
+  title : "Our Easy <span>PRICE</span>"
+  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+  subtitle : "FEATURED ON THE WEEK"
+  pricing_item:
+  - title: "Pancakes n' Such Titas"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 125.00"
 
-################### Donate ################
+  - title: "Caesar Salad"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 100.00"
+
+  - title: "Steak with a Garlic and Parsley Risotto"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 20.00"
+
+  - title: "Meat of Skewers"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 45.00"
+
+  - title: "Pancakes n' Such"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
+    price : "$ 25.00"
+
+################### Subscription ################
 subscription:
   enable : true
-  bg_image : "images/sanctuary.jpg"
-  title : "Donate to the Shul"
-  description : ""
+  bg_image : "images/subscribe-bg.jpg"
+  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
   #Mailchimp subscription configaration 
   form_action : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
   formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
@@ -56,6 +74,6 @@ subscription:
 ################ Contact #######################
 contact:
   enable : true
-  title: "Contact Us"
-  subtitle: "SIGN UP FOR EMAIL ALERTS TODAY"
+  title: "Let's <span> Contact Us </span>"
+  subtitle: "SIGN UP FOR EMAIL ALERTS"
   form_action : "#" #contact form works with formspree.io
